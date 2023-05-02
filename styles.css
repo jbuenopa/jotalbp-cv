@@ -1,0 +1,175 @@
+body {
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: #bd93f9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #f1b9e4;
+  }
+  
+  a:active,
+  a:focus {
+    color: #6c3365;
+  }
+  
+  
+
+  .main{
+    padding: 30px;
+  }
+  
+  .terminal {
+    background-color: #44475a;
+    border-radius: 8px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+    margin: 50px auto;
+    max-width: 800px;
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #44475a;
+    border-radius: 8px 8px 0 0;
+    color: #f8f8f2;
+    padding: 24px;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    margin: 0;
+    color: #bd93f9;
+  }
+  
+  .header .name {
+    color: #ff79c6;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #50fa7b;
+  }
+  
+  .body {
+    padding: 24px;
+  }
+  
+  .section {
+    margin-bottom: 24px;
+  }
+  
+  .section h2 {
+    color: #50fa7b;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .jobs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .job {
+    margin-bottom: 24px;
+  }
+  
+  .job h3 {
+    color: #bd93f9;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .job .date {
+    color: #f8f8f2;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .job .responsibilities {
+    list-style: disc inside;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .job .responsibilities li {
+    margin-bottom: 8px;
+  }
+  
+  .degrees {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .degree {
+    margin-bottom: 24px;
+  }
+  
+  .degree h3 {
+    color: #bd93f9;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .degree .date {
+    color: #f8f8f2;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .degree .school {
+    color: #f8f8f2;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .skills {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills li {
+    background-color: #6272a4;
+    border-radius: 16px;
+    color: #f8f8f2;
+    font-size: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+  }
+  
+  .skills li:hover {
+    background-color: #bd93f9;
+    cursor: pointer;
+  }
+  
+  .contact {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact li {
+    color: #f8f8f2;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .contact i {
+    margin-right: 8px;
+    color: #bd93f9;
+  }
+  
